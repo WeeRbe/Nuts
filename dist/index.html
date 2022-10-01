@@ -9,11 +9,11 @@
 	<title>Орехи</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,400;0,500;0,600;0,800;0,900;1,500;1,600;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 	<body>
 		<div class="wrapper">
-			<header>
+			<header class="header">
     <div class="header-contents__top">
         <div class="header__container">
             <div class="header-content__top">
@@ -30,8 +30,8 @@
                 </div>
                 <span class="header-top__text">Ваша персональная скидка - 5%</span>
                 <div class="header-top__register">
-                    <a href="#" class="header-top__register-exit">Вход</a>
-                    <a href="#" class="header-top__register-register active">Регистрация</a>
+                    <a href="entry.html" class="header-top__register-exit">Вход</a>
+                    <a href="registration.html" class="header-top__register-register active">Регистрация</a>
                     <p class="header-top__register-language">Ru</p>
                 </div>
             </div>
@@ -52,8 +52,8 @@
                         <img src="img/svgicons/viber.svg" alt="Viber">
                     </div>
                     <div class="header-midle__phone">
-                        <p><span>+38 (044)</span>750-50-11</p>
-                        <p><span>+38 (097)</span>775-50-51</p>
+                        <p><span>+38 (044)</span> 750-50-11</p>
+                        <p><span>+38 (097)</span> 775-50-51</p>
                     </div>
                     <div class="header-midle__button">
                         <a href="#">Заказать звонок</a>
@@ -77,15 +77,83 @@
             </div>
             <div class="header-bottom__content">
                 <ul class="header-bottom__list">
-                    <li><a href="#" class="header-bottom__link active">Магазин</a></li>
-                    <li><a href="#" class="header-bottom__link">О производстве</a></li>
-                    <li><a href="#" class="header-bottom__link">Оплата и доставка</a></li>
-                    <li><a href="#" class="header-bottom__link">Оптовым и корпоративным клиентам</a></li>
+                    <li><a href="index.html" class="header-bottom__link active">Магазин</a></li>
+                    <li><a href="company.html" class="header-bottom__link">О производстве</a></li>
+                    <li><a href="delivery.html" class="header-bottom__link">Оплата и доставка</a></li>
+                    <li><a href="gross.html" class="header-bottom__link">Оптовым и корпоративным клиентам</a></li>
                     <li><a href="articles.html" class="header-bottom__link">Новости и статьи</a></li>
-                    <li><a href="#" class="header-bottom__link">Контакты</a></li>
+                    <li><a href="#footer" class="header-bottom__link">Контакты</a></li>
                 </ul>
             </div>
         </div>
+    </div>
+</header>
+
+<header class="header-1024">
+    <div class="header-media-1">
+        <p class="header-media-tel"><span>+38 (044)</span> 750-50-11</p>
+        <a href="#">Заказать звонок</a>
+        <div class="custom-select custom-select-lang">
+            <select>
+                <option value="0">Ru</option>
+                <option value="1">Ua</option>
+                <option value="2">En</option>
+                <option value="3">Ru</option>
+            </select>
+        </div>
+    </div>
+    <div class="header-media-menu">
+        <div class="header-burger-media">
+            <span></span>
+        </div>
+
+        <div class="logo-header">
+            <img src="img/svgicons/logo-media.svg" alt="logo">
+            <h1 class="logo-media-title">ОРЕХ <br> ПРИЧЕРНОМОРЬЯ</h1>
+        </div>
+
+        <a href="#" class="header-midle__purchases">
+            <img src="img/svgicons/bag.svg" alt="purchases">
+            <p class="header-midle__purchases-amount">0</p>
+        </a>
+
+
+        <div class="header-media__menu">
+            <div class="menu-media-1">
+                <div class="logo-header logo-header-active">
+                    <img src="img/svgicons/logo-media.svg" alt="logo">
+                    <h1 class="logo-media-title">ОРЕХ <br> ПРИЧЕРНОМОРЬЯ</h1>
+                </div>
+                <div class="header-burger-media"></div>
+            </div>
+            <div class="menu-regist">
+                <div class="header-top__register">
+                    <a href="entry.html" class="header-top__register-exit">Вход</a>
+                    <a href="registration.html" class="header-top__register-register active">Регистрация</a>
+                </div>
+                <div class="header-top__network header-network-media">
+                    <a href="#">
+                        <img src="img/svgicons/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/youtube.svg" alt="youtube">
+                    </a>
+                </div>
+            </div>
+
+            <ul class="menu-burger-list">
+                <li><a href="index.html" class="menu-link-media">Магазин</a></li>
+                <li><a href="company.html" class="menu-link-media">О производстве</a></li>
+                <li><a href="delivery.html" class="menu-link-media">Оплата и доставка</a></li>
+                <li><a href="gross.html" class="menu-link-media">Оптовым и корпоративным клиентам</a></li>
+                <li><a href="articles.html" class="menu-link-media">Новости и статьи</a></li>
+                <li><a href="#footer" class="menu-link-media">Контакты</a></li>
+            </ul>
+        </div>
+
     </div>
 </header>
 			<main class="main">
@@ -125,7 +193,7 @@
 										<p>19 <span> грн.</span></p>
 										<span>21 <p>грн.</p></span>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 							<div class="main-products__contents-top-block">
@@ -146,7 +214,7 @@
 										<h4>Цена:</h4>
 										<p><span>от</span> 21 <span> грн.</span></p>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 							<div class="main-products__contents-top-block">
@@ -166,7 +234,7 @@
 										<h4>Цена:</h4>
 										<p><span>от</span> 21 <span> грн.</span></p>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 						</div>
@@ -189,7 +257,7 @@
 										<p>19 <span> грн.</span></p>
 										<span>21 <p>грн.</p></span>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 							<div class="main-products__contents-top-block">
@@ -209,7 +277,7 @@
 										<h4>Цена:</h4>
 										<p><span>от</span> 21 <span> грн.</span></p>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 							<div class="main-products__contents-top-block">
@@ -229,7 +297,7 @@
 										<h4>Цена:</h4>
 										<p><span>от</span> 21 <span> грн.</span></p>
 									</div>
-									<a href="#" class="main-products__btn">Купить</a>
+									<a href="card.html" class="main-products__btn">Купить</a>
 								</div>
 							</div>
 						</div>
@@ -280,23 +348,23 @@
 						</div>
 						<div class="indicators-block indicators-block-2">
 							<h4 class="indicators-title">1</h4>
-							<p class="indicators-text">Тепличного <br> комплекса</p>
+							<p class="indicators-text indicators-text-2">Тепличного <br> комплекса</p>
 							<h6 class="indicators-title-min indicators-title-min-2">Га</h6>
 						</div>
 						<div class="indicators-block indicators-block-3">
 							<h4 class="indicators-title">10</h4>
-							<p class="indicators-text">Первая промышленная плантация <br> шиповника в Украине</p>
+							<p class="indicators-text indicators-text-3">Первая промышленная плантация <br> шиповника в Украине</p>
 							<h6 class="indicators-title-min indicators-title-min-3">Га</h6>
 						</div>
 						<div class="indicators-block indicators-block-4">
 							<h4 class="indicators-title">80</h4>
-							<p class="indicators-text">Приживаемости <br> саженцев</p>
+							<p class="indicators-text indicators-text-4">Приживаемости <br> саженцев</p>
 							<h6 class="indicators-title-min indicators-title-min-4">%</h6>
 						</div>
 					</div>
 				</div>
 
-				<div class="goal">
+				<div class="goal ">
 					<div class="goal__container">
 						<h2 class="goal__title">Наша главная цель - получить максимальную <br> прибыль с одного гектара</h2>
 						<img src="img/svgicons/play.svg" alt="play" class="goal-play__icon">
@@ -436,7 +504,7 @@
 					</div>
 				</div>
 			</main>
-			<footer>
+			<footer id="footer">
     <div class="footer__contacts footer__contacts-white">
         <div class="footer__container">
             <div class="footer__contacts-contents">
@@ -485,8 +553,8 @@
                     <ul class="footer-list">
                         <li><a href="#" class="footer-menu__link">Магазин</a></li>
                         <li><a href="#" class="footer-menu__link active">Корпоративным клиентам</a></li>
-                        <li><a href="#" class="footer-menu__link">Оплата и доставка</a></li>
-                        <li><a href="#" class="footer-menu__link">О производстве</a></li>
+                        <li><a href="delivery.html" class="footer-menu__link">Оплата и доставка</a></li>
+                        <li><a href="company.html" class="footer-menu__link">О производстве</a></li>
                         <li><a href="articles.html" class="footer-menu__link">Новости и статьи</a></li>
                         <li><a href="gallery.html" class="footer-menu__link">Галерея</a></li>
                     </ul>
