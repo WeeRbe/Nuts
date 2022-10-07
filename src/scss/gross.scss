@@ -1,0 +1,323 @@
+.gross-gallery{
+    background-image: url('@img/gross/1.jpg');
+
+    height: 600px;
+}
+.gross-gallery__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 73px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 188px 0px 0px 0px;
+}
+
+
+.gross-main-text__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 93px;
+}
+.gross-main-text__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 53px;
+
+    color: #1A2F3F;
+
+    margin: -59px 0px 0px 0px;
+}
+.gross-main-text__text-1 {
+    width: 330px;
+    p{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #1A2F3F;
+        &:nth-child(1){
+            margin: 0px 0px 0px 0px;
+            letter-spacing: 0.13px;
+            font-size: 16.3px;
+        }
+        &:nth-child(2){
+            margin: 24px 0px 0px 0px;
+            font-size: 16.3px;
+            span{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.17px;
+
+                color: #1A2F3F;
+            }
+        }
+    }
+}
+.gross-main-text__text-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1A2F3F;
+
+    width: 330px;
+        p{
+            &:nth-child(1){
+                margin: 0px 0px 0px 0px;
+                letter-spacing: 0.2px;
+            }
+            &:nth-child(2){
+                margin: 24px 0px 0px 0px;
+                letter-spacing: 0.22px;
+            }
+        }
+}
+
+.gross-main {
+    margin: 133px 0px 0px 0px;
+    height: 590px;
+}
+.gross-main__container {
+    position: relative;
+}
+.gross-main__btn-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.gross-main__btn-block-1 {
+    width: 205px;
+    height: 64px;
+
+    .gross-contents{
+        display: none;
+    }
+    &.active{
+        border-bottom: 3px solid #337D5A;
+
+        .gross-contents{
+            display: flex;
+            justify-content: space-between;
+
+            position: absolute;
+            left: 15px;
+            width: 100%;
+
+            margin: 41px 0px 0px 0px;
+            padding: 0px 30px 0px 0px;
+        }
+    }
+}
+.gross-main__button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+}
+.gross-main__button-1{
+    padding: 0px 0px 0px 56px;
+    
+    height: 100%;
+
+    background-image: url('@img/gross/1.svg');
+    background-repeat: no-repeat;
+    background-position: left 2px top 4px;
+}
+.gross-main__btn-block-2 {
+    width: 205px;
+    height: 64px;
+    .gross-contents{
+        display: none;
+    }
+    &.active{
+        border-bottom: 3px solid #337D5A;
+
+        .gross-contents{
+            display: flex;
+            justify-content: space-between;
+
+            position: absolute;
+            left: 15px;
+            width: 100%;
+
+            margin: 41px 0px 0px 0px;
+            padding: 0px 30px 0px 0px;
+        }
+    }
+}
+.gross-main__button-2{
+    padding: 0px 0px 0px 78px;
+
+    height: 100%;
+
+    background-image: url("@img/gross/2.svg");
+    background-repeat: no-repeat;
+    background-position: left 26px top 4px;
+}
+.gross-main__btn-block-3 {
+    width: 235px;
+    height: 64px;
+    .gross-contents{
+        display: none;
+    }
+    &.active{
+        border-bottom: 3px solid #337D5A;
+
+        .gross-contents{
+            display: flex;
+            justify-content: space-between;
+
+            position: absolute;
+            left: 15px;
+            width: 100%;
+
+            margin: 41px 0px 0px 0px;
+            padding: 0px 30px 0px 0px;
+        }
+    }
+}
+.gross-main__button-3{
+    padding: 0px 0px 0px 90px;
+    
+    height: 100%;
+
+    background-image: url('@img/gross/3.svg');
+    background-repeat: no-repeat;
+    background-position: left 24px top -6px;
+}
+.gross-main__btn-block-4 {
+    width: 240px;
+    height: 64px;
+    .gross-contents{
+        display: none;
+    }
+    &.active{
+        border-bottom: 3px solid #337D5A;
+
+        .gross-contents{
+            display: flex;
+            justify-content: space-between;
+
+            position: absolute;
+            left: 15px;
+            width: 100%;
+
+            margin: 41px 0px 0px 0px;
+            padding: 0px 30px 0px 0px;
+        }
+    }
+}
+.gross-main__button-4{
+    padding: 0px 0px 0px 65px;
+    
+    height: 100%;
+
+    background-image: url('@img/gross/4.svg');
+    background-repeat: no-repeat;
+    background-position: left 0px top 10px;
+}
+.gross-main__btn-block-5 {
+    width: 205px;
+    height: 64px;
+    .gross-contents{
+        display: none;
+    }
+    &.active{
+        border-bottom: 3px solid #337D5A;
+
+        .gross-contents{
+            display: flex;
+            justify-content: space-between;
+
+            position: absolute;
+            left: 15px;
+            width: 100%;
+
+            margin: 41px 0px 0px 0px;
+            padding: 0px 30px 0px 0px;
+        }
+    }
+}
+.gross-main__button-5 {
+    padding: 0px 0px 0px 59px;
+    
+    height: 100%;
+
+    background-image: url('@img/gross/5.svg');
+    background-repeat: no-repeat;
+    background-position: left -2px top 1px;
+}
+
+.gross-content-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1A2F3F;
+}
+.gross-content-text-1 {
+    margin: 48px 0px 0px 0px;
+}
+.gross-content-text-2 {
+    margin: 24px 0px 0px 0px;
+}
+.gross-content-text-3 {
+    margin: 24px 0px 0px 0px;
+}
+.gross-content-text-4 {
+    margin: 24px 0px 0px 0px;
+}
+.gross-content-text-btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    width: 188px;
+    height: 52px;
+
+    margin: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+    border: 1.5px solid #337D5A;
+    background-color: #337D5A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gross-eco{
+    margin: 0px 0px -2px 0px;
+    padding: 230px 0px 0px 0px;
+    background-image: url('@img/gross/gross-eco.jpg');
+}
+.gross-eco-title{
+    margin: 22px 20px 0px 0px;
+}
+.gross-eco-text{
+    margin: 26px 0px 0px 9px;
+}

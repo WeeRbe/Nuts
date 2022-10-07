@@ -1,0 +1,327 @@
+.company-header {
+    background-image: url('@img/company/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 600px;
+
+    margin: 14px 0px 0px 0px;
+}
+.company__nav-position {
+    display: flex;
+    align-items: center;
+
+    padding: 35px 0px 0px 0px;
+    margin: 0px 0px 0px -1px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.text-position-left {
+    background-image: url('@img/svgicons/arrow-white.svg');
+    background-repeat: no-repeat;
+    background-position: right 0 top 4px;
+
+    padding: 0px 21px 0px 0px;
+    margin: 0px 10px 0px 0px;
+}
+.company-title-header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 63px;
+    line-height: 73px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin: 145px 0px 0px 0px;
+}
+.company-text-header {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+    margin: 30px 0px 0px 0px;
+}
+.company-play-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 61px;
+    width: 100%;
+
+    margin: 37px 0px 0px 0px;
+}
+.company-about-inform__title{
+    font-size: 45px;
+}
+.company-inform__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3px;
+    line-height: 24px;
+    
+    color: #1A2F3F;
+    
+    margin: 43px 0px 0px 0px;
+}
+.company-inform__text-1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3px;
+    line-height: 24px;
+    
+    color: #1A2F3F;
+    
+    margin: 33px 0px 0px 0px;
+}
+.company-inform__text-2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3px;
+    line-height: 25px;
+    
+    color: #1A2F3F;
+    
+    margin: 27px 0px 0px 0px;
+}
+.company-about{
+    background-color: #FFFFFF;
+}
+.company-about-slider{
+    height: 469px;
+}
+
+.company-worker {
+    background-color: #FBFBFB;
+}
+.company-worker__contents {
+    margin: 0px 0px 0px 1px;
+    padding: 102px 0px 89px 0px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.company-worker__content-left {
+    display: flex;
+}
+.company-worker__inform {
+    margin: 31px 0px 0px 43px;
+}
+.company-worker__title-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #1A2F3F;
+
+    margin: 0px 0px 0px 0px;
+}
+.company-worker__text-position {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+
+    color: #1A2F3F;
+
+    margin: 11px 0px 0px 2px;
+}
+.company-indicators__container{
+    margin-top: 72px;
+}
+.company-worker__text-mission {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 10px;
+    margin: 34px 0px 0px 2px;
+    p{
+        font-family: "Raleway";
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.43px;
+
+        color: #1A2F3F;
+
+        margin: 4px 0px 0px 0px;
+    }
+}
+.company-worker__btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #337D5A;
+    border: 1.5px solid #337D5A;
+
+    width: 188px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 57px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.company-worker__content-right {
+    background-image: url('@img/company/back-infor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 453px;
+    height: 493px;
+
+    padding: 31px 0px 0px 46px;
+}
+.company-worker__title-right {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+    margin: 0px 0px 0px 0px;
+}
+.company-worker__text-right-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FCFCFC;
+
+    margin: 30px 0px 0px 0px;
+}
+.company-worker__text-right-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FCFCFC;
+
+    margin: 15px 0px 0px 0px;
+}
+.company-worker__text-right-3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FCFCFC;
+
+    margin: 15px 0px 0px 0px;
+}
+
+.company-indicators-contents{
+    margin: 72px 0px 0px 81px;
+}
+.company-indicators-block-2 {
+    margin: 0px 140px 0px 0px;
+}
+.company-indicators-block-3 {
+    margin: 0px 113px 0px 0px;
+}
+
+.company-main-grid{
+    background-color: #FBFBFB;
+
+    margin: 86px 0px 0px 0px;
+    padding: 89px 0px 100px 0px;
+}
+.company-grid-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+    color: #1A2F3F;
+
+    margin: 0px 0px 0px 0px;
+}
+.company-grid-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+    color: #1A2F3F;
+
+    margin: 22px 0px 0px 0px;
+}
+.company-main-grid__contents{
+    margin: 36px 0px 0px 0px;
+}
+.company-main-grid__btn{
+    width: 236px;
+    height: 51px;
+
+    padding: 0px 0px 2px 0px;
+    margin: 70px auto 0px;
+
+    letter-spacing: 0.5px;
+}
+
+.company-eco{
+    background-image: url('@img/company/3.jpg');
+
+    padding: 255px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+    height: 740px;
+}
+.company-eco-title{
+    margin: 42px 18px 0px 0px;
+
+    font-size: 46px;
+}
+.company-eco-text{
+    letter-spacing: 0.2px;
+    line-height: 31px;
+
+    margin: 15px 0px 0px 9px
+}
+.company-news-informs{
+    padding: 87px 0px 0px 0px;
+}

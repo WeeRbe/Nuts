@@ -1,0 +1,161 @@
+.articles__headeer-position {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #8A8A8A;
+
+    margin: 51px 0 0 0;
+
+    display: flex;
+    align-items: center;
+}
+.articles__headeer-position-left {
+    background-image: url('@img/index.html/next.svg');
+    background-position: right 10px top 3px;
+    background-repeat: no-repeat;
+
+    filter: contrast(0.0);
+
+    padding: 0px 28px 0px 0px;
+}
+.articles__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #1A2F3F;
+    letter-spacing: 0.6px;
+    margin: 11px 0px 0px 0px;
+}
+.articles__text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A2F3F;
+    letter-spacing: 0.0px;
+    margin: 20px 0 0px 0px;
+}
+
+.articles-block {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 64px 0px 61px 0px;
+}
+.articles-block__text {
+    margin: 73px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+    transform: translate(17px, 0);
+}
+.articles-block-date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+
+    letter-spacing: 0.01em;
+
+    color: #8A8A8A;
+
+    margin: 21px 0px 0px 0px;
+}
+.articles-block-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    margin: 19px 0px 0px 0px;
+}
+.articles-block-text__top {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1A2F3F;
+    margin: 21px 0px 0px 0px;
+}
+.articles-block-text__bottom {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    line-height: 25px;
+
+    color: #1A2F3F;
+
+    margin: 13px 0px 28px 0px;
+}
+.articles-block-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    background-image: url('@img/gallery/eco/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 28px 0px 0px;
+}
+
+.news-block__body-articles{
+    padding: 22px 0px 28px 2px;
+}
+.swiper-slide-news__article{
+    flex-wrap: wrap;
+}
+.articles-image{
+    margin: 28px 0px 0px 0px;
+    padding: 236px 0px 126px 0px;
+}
+.articles-btn{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #337D5A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1.5px solid #337D5A;
+    width: 199px;
+    height: 52px;
+
+    margin: 71px auto 88px;
+    padding: 1px 4px 0px 0px;
+}
+.articles-inform__container{
+    margin-top: -3px;
+}
+.articles-news__block-body{
+    padding: 21px 0px 28px 0px;
+}

@@ -1,0 +1,518 @@
+
+.registration-main__contents {
+    margin: 47px 0px 0px 0px;
+}
+.registration-main-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    margin: 0px 0px 0px -2px;
+}
+.registration-main-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    margin:19px 0px 0px 0px;
+}
+// =================================================
+.registration {
+    display: flex;
+
+    position: relative;
+
+    height: 1100px;
+
+    margin: 34px 0px 0px 0px;
+    gap: 37px;
+    li{
+        height: 30px;
+    }
+}
+// =================================================
+.registration-list-1,
+.registration-list-2{
+    .form-form-1,
+    .form-form-2{
+        display: none;
+        
+    }
+    &.active{
+        .form-form-1,
+        .form-form-2{
+            display: flex;
+        }
+        .registration-inform {
+            color: #1A2F3F;
+            font-weight: 700;
+            border-bottom: 2.5px solid #337D5A;
+        }
+    }
+}
+.registration-inform {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+
+    width: 210px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
+
+    padding: 0px 3px 0px 0px;
+}
+.form-form-1,
+.form-form-2{
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+    width: 100%;
+}
+
+.registration-form__min {
+    display: flex;
+    flex-direction: column;
+}
+.form__min-name {
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 42px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-email {
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 14px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-tel {
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 15px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-title-add-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+
+    color: #1A2F3F;
+
+    margin: 47px 0px 0px 0px;
+}
+.option-form-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A2F3F;
+
+    background-position: right 13px top 18px;
+
+    margin: 21px 0px 0px 0px;
+    padding: 0px 0px 0px 2px;
+
+    height: 47px;
+    width: 474px;
+    &.select-items div,.select-selected{
+        padding: 16px 0px 0px 13px;
+
+        height: 47px;
+        width: 474px;
+    }
+}
+.option-form-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A2F3F;
+
+    background-position: right 13px top 18px;
+    background-color: rgba(51, 125, 90, 0.1);
+
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 2px;
+
+    height: 47px;
+    width: 474px;
+    &.select-items div,.select-selected{
+        padding: 16px 0px 0px 13px;
+
+        height: 47px;
+        width: 474px;
+    }
+}
+.form__min-city{
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 16px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-addres{
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 15px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-title-add-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+
+    color: #1A2F3F;
+
+    margin: 46px 0px 0px 0px;
+}
+.form__min-pass{
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 19px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form__min-pass-rep{
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 16px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.agree {
+    display: flex;
+
+    margin: 31px 0px 0px 0px;
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 0.01em;
+
+        color: #8A8A8A;
+        span{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 0.01em;
+
+            color: #337D5A;
+
+            margin: 0 0 0 1px;
+        }
+    }
+}
+.agree-border {
+    border: 1.5px solid #337D5A;
+
+    width: 14px;
+    height: 14px;
+
+    margin: 0px 10px 0px 0px;
+
+    &.active{
+        background-color: #337D5A;
+    }
+}
+.btn-form-registration {
+    background: #337D5A;
+    border: 0.5px solid #337D5A;
+
+    width: 474px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    padding: 0px 2px 0px 0px;
+    margin: 27px 0px 0px 0px;
+}
+
+input:hover{
+    border: 1.5px solid #337D5A;
+}
+
+.form-min__forms {
+    margin: 0px 0px 0px 266px;
+    position: relative;
+    z-index: 2;
+    img{
+        transform: translate(0px , -31px);
+    }
+}
+.form-min__forms-1 {
+    margin: -4px 0px 0px 0px;
+}
+.form-fop-list {
+
+    form{
+        display: none;
+    }
+    &.active{
+        .form-fop{
+            span{
+                background-color: #337D5A;
+            }
+        }
+        form{
+            display: block;
+        }
+        .form-fop-2{
+            position: relative;
+            span{
+                background-color: #fff;
+                &::before{
+                    content: "";
+                    background-color: #337D5A;
+                    width: 7px;
+                    height: 7px;
+                    
+                    border-radius: 50px;
+    
+                    position: absolute;
+                    top: 4px;
+                    left: 4px;
+                }
+            }
+        }
+    }
+}
+.form-fop {
+    display: flex;
+    cursor: pointer;
+    span{
+        border: 1.5px solid #337D5A;
+        width: 14px;
+        height: 14px;
+        margin: 0px 10px 0px 0px;
+    }
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 0.01em;
+
+        color: #8A8A8A;
+
+        margin: 1px 0px 0px 0px;
+    }
+}
+.form-fop-inform {
+    margin: 84px 0px 0px 0px;
+}
+.form-fop-inform__title-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+}
+.form-fop-inform__input-1 {
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #1A2F3F;
+
+    padding: 3px 0px 0px 16px;
+    margin: 22px 0px 0px 0px;
+
+    height: 47px;
+    width: 474px;
+}
+.form-fop-inform__title-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    margin: 47px 0px 0px 0px;
+}
+.form-fop-2{
+    span{
+        border-radius: 50px;
+        border: 2px solid #337D5A;
+        background-color: #fff;
+        width: 15px;
+        height: 15px;
+        margin: 0px 11px 0px 0px;
+    }
+}
+.form-min__forms-list-2 {
+    margin: -1px 0 0 0;
+}
+.option-form-1__one{
+    padding: 0px 0px 0px 0px;
+    margin: 21px 0px 0px 0px;
+    &.select-items div, .select-selected{
+        padding: 15px 0px 0px 15px;
+    }
+}
+.option-form-1__two{
+    padding: 0px 0px 0px 0px;
+    margin: 14px 0px 0px 0px;
+    background-color: #fff;
+    &.select-items div, .select-selected{
+        padding: 15px 0px 0px 15px;
+    }
+}
+.form__min__city-1{
+    margin: 15px 0px 0px 0px;
+    padding: 3px 0px 0px 15px
+}
+.form__min__addres-1{
+    margin: 15px 0px 0px 0px;
+    padding: 3px 0px 0px 15px
+}
+.form__min__addres-2{
+    margin: 15px 0px 0px 0px;
+    padding: 3px 0px 0px 15px
+}
+.form-fop-inform-2{
+    margin: 55px 0px 0px 0px;
+}
+.ffi__i-1{
+    margin: 21px 0px 0px 0px;
+}
+.ffi_t-2{
+    margin: 48px 0px 0px -1px;
+}
+.of-1{
+    margin: 21px 0px 0px -2px;
+    &.select-items div, .select-selected{
+        padding: 15px 0px 0px 15px;
+    }
+}
+.of-2{
+    margin: 15px 0px 0px -2px;
+    &.select-items div, .select-selected{
+        padding: 15px 0px 0px 15px;
+    }
+}
+.f__mc{
+    padding: 3px 0px 0px 15px;
+    margin: 14px 0px 0px 0px;
+}

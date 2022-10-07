@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Орехи"
+})
+<body>
+<div class="wrapper">
+@@include('html/header.html',{})
+<main class="main">
+    <div class="private__container">
+        <div class="account-top-nav">
+            <p class="account-top__navtext">Главная</p>
+            <p class="private-top__navtext">Личный кабинет</p>
+            <p>История заказов</p>
+        </div>
+        <div class="private">
+            <div class="account__main-block account__main-block-2">
+                <h2 class="account-title">Учетная запись</h2>
+    
+                <ul class="account-list">
+                    <li>
+                        <h4 class="account-min__title-top">Мои заказы</h4>
+                    </li>
+                    <li  class="active"><a href="private.html" class="account-link">История заказов</a></li>
+                    <li><a href="transactions.html" class="account-link">История транзакций</a></li>
+                    <li>
+                        <h4 class="account-min__title-bottom">Моя учетная запись</h4>
+                    </li>
+                    <li><a href="contact.html" class="account-link">Контактная информация</a></li>
+                    <li><a href="pass.html" class="account-link">Пароль</a></li>
+                    <li><a href="address.html" class="account-link">Адрес реквизиты</a></li>
+                </ul>
+            </div>
+            <div class="private-midle-block">
+                <div class="account-call">
+                    <p class="account-call__name">Ваш личный менеджер Олег</p>
+                    <p class="account-call__tel">+38 067 777 14 12</p>
+                </div>
+                <div class="private-order">
+                    <ul class="private-order__block-1">
+                       <li><p>№ Заказа</p></li> 
+                       <li><p>Дата</p></li>
+                       <li><p>Кол - во товаров</p></li>
+                       <li><p>Статус</p></li>
+                       <li><p>Стоимость</p></li>
+                       <li><p>Функции</p></li>
+                    </ul>
+                    <ul class="private-order__block-2">
+                        <li><p>23</p></li> 
+                        <li><p>3.05.2019</p></li>
+                        <li><p>13</p></li>
+                        <li><p>Отправлено</p></li>
+                        <li><p>2500 грн.</p></li>
+                        <li>
+                            <img src="@img/joint/view.svg" alt="#">
+                            <img src="@img/joint/copy.svg" alt="#">
+                        </li>
+                     </ul>
+                     <ul class="private-order__block-2 private-order__block-3">
+                        <li><p>24</p></li> 
+                        <li><p>10.05.2019</p></li>
+                        <li><p>15</p></li>
+                        <li><p>В ожидании </p></li>
+                        <li><p>2400 грн.</p></li>
+                        <li>
+                            <img src="@img/joint/view.svg" alt="#">
+                            <img src="@img/joint/copy.svg" alt="#">
+                        </li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@@include('html/footer.html',{})
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Подключаем jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<!-- Подключаем файл JS скриптов -->
+<script src="js/app.min.js"></script>
+</body>
+</html>

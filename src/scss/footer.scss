@@ -1,0 +1,230 @@
+.footer__contacts {
+    background-color: #FBFBFB;
+}
+.footer__contacts-contents {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 102px 0px 90px 0px;
+}
+.footer__contacts-content {
+    margin: 12px 0px 0px 0px;
+    h2{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 53px;
+
+        color: #1A2F3F;
+
+        margin: 0px 0px 0px -3px;
+    }
+}
+.footer-tel {
+    display: flex;
+    margin: 73px 0px 0px 0px;
+}
+.footer-tel__content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    background-image: url('@img/footer/tel.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+
+    padding: 0px 0px 0px 30px;
+}
+.footer-network__contacts {
+    margin: 6px 0px 0px 47px;
+}
+.footer-mail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #1A2F3F;
+
+    background-image: url('@img/footer/messeg.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+
+    padding: 0px 0px 0px 30px;
+    margin: 44px 0px 0px 0px;
+}
+.footer-position {
+    background-image: url('@img/footer/house.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    padding: 0px 0px 0px 30px;
+    margin: 47px 0px 0px 0px;
+
+    color: #1A2F3F;
+    h4{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+
+        margin: 16px 0px 0px 0px;
+    }
+}
+.footer__production {
+    background-image: url('@img/footer/tree.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    padding: 0px 0px 0px 30px;
+    margin: 37px 0px 0px 0px;
+
+    h4{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+
+        margin: 17px 0px 0px 0px;
+    }
+}
+.footer__map {
+    width: 739.77px;
+    height: 518px;
+}
+
+// ========================================
+.header__burger-footer{
+    display: none;
+}
+.footer-menu__list {
+    display: flex;
+    align-items: flex-end;
+}
+.footer-menu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 0 0 27px 0;
+}
+.footer-menu__contents{
+    margin: 44px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    
+    margin: 0px 0px 0px -1px;
+    padding: 0px 0px 0px 0px;
+}
+.footer-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #1A2F3F;
+
+    padding: 11px 0px 0px 0px;
+    margin: 0px 0px 0px 8px;
+}
+.footer-list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    width: 995px;
+
+    margin: 0px 0px 4px 0px;
+}
+.footer-menu__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #1A2F3F;
+
+    &.active{
+        color: rgba(51, 125, 90, 1);
+    }
+}
+// ========================================================
+
+.footer-developed__contents{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 29px 0px 37px -1px;
+
+    h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #1A2F3F;
+        .footer-developed__span-1{
+            font-weight: 600;
+            color: #337D5A;
+        }
+        .footer-developed__span-2{
+            font-weight: 400;
+            color: #337D5A;
+        }
+    }
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #1A2F3F;
+
+        margin: 0px 93px  0px 0px;
+    }
+}
+
+.footer-top__network{
+    margin: -2px 0px 0px 0px;
+}
+
+// ==============================
+.footer-menu__contents-white{
+    margin: -10px 0px 0px 0px
+}
+.footer__contacts-white{
+    background-color: #fff;
+}

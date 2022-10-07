@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/head.html',{
+        "title":"Орехи"
+        })
+<body>
+    <div class="wrapper">
+        @@include('html/header.html',{})
+        <main class="main">
+            <div class="delibery-header">
+                <div class="delibery-header__container">
+                    <div class="articles__headeer-position delibery-header-position">
+                        <p class="articles__headeer-position-left delibery-header__position-text">Главная</p>
+                        <p>Оплата и доставка</p>
+                    </div>
+                    <h1 class="delibery-header__title">Оплата и доставка</h1>
+                </div>
+            </div>
+
+            <div class="delibery-main">
+                <div class="delibery-main__container">
+                    <div class="delibery-main__btn-contents">
+                        <a href="#" class="delibery-main__btn-block-1 active">
+                           <h4 class="delibery-main__button-1">Оплата заказа</h4>
+                        </a>
+                        <a href="#" class="delibery-main__btn-block-2">
+                            <h4 class="delibery-main__button-2">Доставка партии</h4>
+                         </a>
+                         <a href="#" class="delibery-main__btn-block-3">
+                            <h4 class="delibery-main__button-3">Возврат товара</h4>
+                         </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="delibery-inform__container">
+                <div class="delibery-inform__block">
+                    <h6 class="delibery-inform__title">Способы оплаты </h6>
+                    <h4 class="delibery-inform__title-2">Безналичный расчет</h4>
+                    <p class="delibery-inform__text-2">Вы можете выбрать “получить реквизиты” <br> для дальнейшей оплаты на карту, или в терминалах.</p>
+                    <h4 class="delibery-inform__title-3">Оплата с помощью банковской карты</h4>
+                    <p class="delibery-inform__text-3">Оплатите Ваш заказ картой любого банка онлайн <br> (LiqPay/Приват24)</p>
+                    <h4 class="delibery-inform__title-4">Наличный расчет</h4>
+                    <p class="delibery-inform__text-4">Оплата заказов наложенным платежом в отделении <br> Новой Почты, или наличными курьерами</p>
+                </div>
+                <img src="@img/delivery/2.jpg" alt="#">
+            </div>
+
+            <div class="delivery-indicators">
+				<div class="indicators__container">
+					<div class="indicators-contents delivery-indicators-contents">
+						<div class="indicators-block indicators-block-1">
+							<h4 class="indicators-title">240</h4>
+							<p class="indicators-text">Cмешанных <br> садов</p>
+							<h6 class="indicators-title-min">Га</h6>
+						</div>
+						<div class="indicators-block indicators-block-2">
+							<h4 class="indicators-title">1</h4>
+							<p class="indicators-text indicators-text-2">Тепличного <br> комплекса</p>
+							<h6 class="indicators-title-min indicators-title-min-2">Га</h6>
+						</div>
+						<div class="indicators-block indicators-block-3">
+							<h4 class="indicators-title">10</h4>
+							<p class="indicators-text indicators-text-3">Первая промышленная плантация <br> шиповника в Украине</p>
+							<h6 class="indicators-title-min indicators-title-min-3">Га</h6>
+						</div>
+						<div class="indicators-block indicators-block-4">
+							<h4 class="indicators-title">80</h4>
+							<p class="indicators-text indicators-text-4">Приживаемости <br> саженцев</p>
+							<h6 class="indicators-title-min indicators-title-min-4">%</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <div class="goal delibery-goal">
+                <div class="goal__container">
+                    <h2 class="goal__title delibery-goal__title">Наша главная цель - получить максимальную <br> прибыль с одного гектара</h2>
+                    <img src="@img/svgicons/play.svg" alt="play" class="goal-play__icon">
+                    <p class="goal__text">Cмотреть видео о производстве</p>
+                </div>
+            </div>
+        </main>
+        @@include('html/footerwhite.html',{})
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>

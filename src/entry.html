@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Орехи"
+})
+<body>
+<div class="wrapper">
+@@include('html/header.html',{})
+    <main class="main">
+        <div class="entry__container">
+            <div class="card-position">
+                <p class="text-card-left">Главная</p>
+                <p>Вход</p>
+            </div>
+            <div class="entry-main">
+                <h2 class="entry-main__title">Войти в личный кабинет</h2>
+                <input type="email" placeholder="Email" checked class="entry-main__email">
+                <input type="password" placeholder="Пароль" checked class="entry-main__pass">
+                <a class="entry-main__1" href="waterrecovery.html"> Забыли пароль?</a>
+                <a class="entry-main__btn" href="address.html">Войти</a>
+                <a class="entry-main__2" href="registration.html">Регистрация</a>
+            </div>
+        </div>
+    </main>
+@@include('html/footer.html',{})
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Подключаем jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<!-- Подключаем файл JS скриптов -->
+<script src="js/app.min.js"></script>
+</body>
+</html>

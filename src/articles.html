@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/head.html',{
+        "title":"Орехи"
+        })
+<body>
+    <div class="wrapper">
+        @@include('html/header.html',{})
+        <main class="main">
+            <div class="articles__container">
+                <div class="articles__headeer-position">
+                    <p class="articles__headeer-position-left">Главная</p>
+                    <p>Новости и статьи</p>
+                </div>
+                <h2 class="articles__title">Новости и статьи</h2>
+                <p class="articles__text">Свежие новости и полезная информация</p>
+            
+            
+                <div class="articles-block">
+                    <img src="@img/articles/1.jpg" alt="#">
+                    <div class="articles-block__text">
+                        <span class="articles-block-date">12.04.2019</span>
+                        <h4 class="articles-block-title">Центр поддержки экспорта, <br> в студии Павел Тулба</h4>
+                         <p class="articles-block-text__top">Сельскохозяйственный обслуживающий кооператив <br>
+                            “Орех Причерноморья” предлагает своим клиентам <br>
+                            выгодные условия сотрудничества.</p>
+                         <p class="articles-block-text__bottom">Ореховый бизнес – один из наиболее перспективных <br>
+                            в Украине. Ежегодная нехватка продукта в Европе <br> составляет 100 000 тонн. У Вас есть возможность <br> зарабатывать десятки тысяч долларов в год всего <br>
+                            на нескольких гектарах земли.</p>
+                        <a href="novelty.html" class="articles-block-link">Читать</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-inform__container">
+                <div class="news-contents">
+                    <div class="swiper-wrapper swiper-wrapper-news">
+                        <div class="swiper-slide swiper-slide-news">
+                            <div class="news-block">
+                                <img src="@img//gallery/eco/1.jpg" alt="#">
+                                <div class="news-block__body articles-news__block-body">
+                                    <p class="news-block-date">12.04.2019</p>
+                                    <h2 class="news-block-title">Центр поддержки экспорта, в студии <br>
+                                        Павел Тулба</h2>
+                                    <p class="new-block-text">Как уже упоминал Павел Тулба, шиповник цветёт. <br> Эта культура очень недооценена среди наших <br> садоводов, не смотря на большой спрос в Европе <br> и отличную...</p>
+                                    <a href="#" class="news-block-read">Читать</a>
+                                </div>
+                            </div>
+                            <div class="news-block">
+                                <img src="@img//gallery/eco/2.jpg" alt="#">
+                                <div class="news-block__body articles-news__block-body">
+                                    <p class="news-block-date">12.04.2019</p>
+                                    <h2 class="news-block-title">В Одесской области состоялся масштабный <br>
+                                        торгово - экспортный форум</h2>
+                                    <p class="new-block-text">Как уже упоминал Павел Тулба, шиповник цветёт. <br> Эта культура очень недооценена среди наших <br> садоводов, не смотря на большой спрос в Европе <br> и отличную...</p>
+                                    <a href="#" class="news-block-read black">Читать</a>
+                                </div>
+                            </div>
+                            <div class="news-block">
+                                <img src="@img//gallery/eco/3.jpg" alt="#">
+                                <div class="news-block__body articles-news__block-body">
+                                    <p class="news-block-date green">12.04.2019</p>
+                                    <h2 class="news-block-title">Сертификация органического <br>
+                                        производителя</h2>
+                                    <p class="new-block-text">Как уже упоминал Павел Тулба, шиповник цветёт. <br> Эта культура очень недооценена среди наших <br> садоводов, не смотря на большой спрос в Европе <br> и отличную...</p>
+                                    <a href="#" class="news-block-read black">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-image__container">
+                <div class="main-grid__content-3 articles-image">
+                    <img src="@img/svgicons/play.svg" alt="Play">
+                    <h4>Проект UBHDP </h4>
+                    <p>Вчера к нам приезжал американский агроном Рон , спасибо Мельнику <br> Евгению и проекту <span>UBHDP</span> за возможность получить консультацию <br>
+                        от мировых специалистов!</p>
+                        <img src="img/articles/1.jpg" alt="#">
+                </div>
+                <a href="#" class="articles-btn">Посмотреть еще</a>
+            </div>
+        </main>
+        @@include('html/footer.html',{})
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>

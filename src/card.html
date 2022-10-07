@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/head.html',{
+        "title":"Орехи"
+        })
+<body>
+    <div class="wrapper">
+        @@include('html/header.html',{})
+        <main class="main">
+            <div class="card-inform__container">
+                <div class="card-position">
+                    <p class="text-card-left">Главная</p>
+                    <p>Карточка товара</p>
+                </div>
+                <div class="card">
+                    <div class="swiper-card">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="@img/card/swiper-card.jpg" alt="#"></div>
+                            <div class="swiper-slide"><img src="@img/card/swiper-card.jpg" alt="#"></div>
+                            <div class="swiper-slide"><img src="@img/card/swiper-card.jpg" alt="#"></div>
+                        </div>
+                        <div class="card-button">
+                            <div class="swiper-button-prev__card"></div>
+                            <div class="swiper-button-next__card"></div>
+                        </div>
+                    </div>
+                    <div class="card-header__inform-text">
+                        <div class="card-name">
+                            <h4 class="card-name-span">Грецкий орех</h4>
+                            <p>Арт: 0091</p>
+                        </div>
+
+                        <h2 class="card-header__title">Орех соленый кондитерский <br> очищенный</h2>
+                        <div class="card-compound">
+                            <h4>Состав:</h4>
+                            <p>Ядро грецкого ореха, вымытого очищенного <br> от кожуры, соль экстра (раствор 7%)</p>
+                        </div>
+                        <div class="card-weight">
+                            <h4>Масса нетто:</h4>
+                            <p>40г.</p>
+                        </div>
+                        <div class="card-energy">
+                            <h4>Энергетическая ценность:</h4>
+                            <p>654 Ккал.</p>
+                        </div>
+                        <div class="card-date">
+                            <h4>Срок годности:</h4>
+                            <p>12 месяцев, с даты расфасовки <br> (указана на упаковке)</p>
+                        </div>
+                        <div class="card-warning">
+                            <img src="@img/card//warning.svg" alt="warning">
+                            <p>Хранить в помещениях, защищенных от попадания прямых, <br> солнечных лучей, при температуре от +3 °C до +20 °C, и относительной <br> влажности воздуха не более 75 %</p>
+                        </div>
+                        <div class="card-price">
+                            <h4>Ваша цена:</h4>
+                            <p class="card-price-1">19 <span>грн.</span></p>
+                            <p class="card-price-2">21 <span>грн.</span></p>
+                            <a href="#" class="card-price-btn">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-nav__container">
+                <ul class="card-nav">
+                    <li class="card-nav__list active">Описание</li>
+                    <li class="card-nav__list">Упаковка</li>
+                    <li class="card-nav__list">Оплата</li>
+                    <li class="card-nav__list">Доставка</li>
+                </ul>
+
+                <div class="card-nav__inform">
+                    <img src="@img/card/1.jpg" alt="#">
+                    <div class="card-nav__inform-text">
+                        <p class="card-nav__text-1">Уже 4000 лет люди питаются ценными грецкими орехами. Они особенно полезны <br> послеоперационным больным,
+                            детям, кормящим, беременным женщинам. Чтобы вернуть <br> силы, укрепить иммунитет, одолеть туберкулез, кашель; 
+                            грецкий орех очищенный, отборный <br> нужно истолочь, смешать с медом (2:1) и чайную ложку целебной смеси 
+                            употреблять перед <br> едой.
+                        </p>
+                        <p class="card-nav__text-2">В белке грецких орехов много (15 %) аргинина. Он особенно нужен детям, больным, пожилым людям, 
+                            в организме которых аминокислота плохо синтезируется. Аргинин помогает сосудам регенерировать, 
+                            а всему организму – победить воспаления.
+                        </p>
+                        <h6 class="card-nav__title-1">Другие полезные вещества грецких орехов:</h6>
+                        <ul class="card-nav__list-1">
+                            <li>Антиоксиданты защищают печень от повреждений</li>
+                            <li>Полифенолы не дают образоваться сосудистым тромбам</li>
+                            <li>Нейропротекторы улучшают работу мозга, отодвигают старость</li>
+                        </ul>
+                        <h6 class="card-nav__title-2">Нужно систематически есть грецкие орехи, чтобы:</h6>
+                        <ul class="card-nav__list-2">
+                            <li>На 30–40 % снизить риск заболевания раком простаты</li>
+                            <li>На 50 % – раком молочной железы</li>
+                            <li>Предотвратить дегенерацию глазной макулы, а значит, улучшить зрение</li>
+                            <li>Отрегулировать обмен веществ, выработку инсулина; понизить количество сахара в крови</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/footer.html',{})
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>

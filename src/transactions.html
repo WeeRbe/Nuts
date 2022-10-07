@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Орехи"
+})
+<body>
+<div class="wrapper">
+@@include('html/header.html',{})
+<main class="main">
+    <div class="transactions__container">
+        <div class="account-top-nav">
+            <p class="account-top__navtext">Главная</p>
+            <p class="private-top__navtext">Личный кабинет</p>
+            <p>История транзакций</p>
+        </div>
+        <div class="transactions">
+            <div class="account__main-block">
+                <h2 class="account-title">Учетная запись</h2>
+    
+                <ul class="account-list">
+                    <li>
+                        <h4 class="account-min__title-top">Мои заказы</h4>
+                    </li>
+                    <li><a href="private.html" class="account-link">История заказов</a></li>
+                    <li class="active"><a href="transactions.html" class="account-link">История транзакций</a></li>
+                    <li>
+                        <h4 class="account-min__title-bottom">Моя учетная запись</h4>
+                    </li>
+                    <li><a href="contact.html" class="account-link">Контактная информация</a></li>
+                    <li><a href="pass.html" class="account-link">Пароль</a></li>
+                    <li><a href="address.html" class="account-link">Адрес реквизиты</a></li>
+                </ul>
+            </div>
+            <div class="transactions-content">
+                <div class="account-call">
+                    <p class="account-call__name">Ваш личный менеджер Олег</p>
+                    <p class="account-call__tel">+38 067 777 14 12</p>
+                </div>
+                <div class="transactions-block">
+                    <div class="transactions-block__line-1">
+                        <p>Добавлено</p>
+                        <p>Статус</p>
+                        <p>Сумма</p>
+                    </div>
+                    <div class="transactions-block__line-2">
+                        <p>3.05.2019</p>
+                        <p>Платеж принят</p>
+
+                        <div class="icon-transactions">
+                            <p>2500 грн.</p>
+                            <img src="@img/joint/view.svg" alt="">
+                            <img src="@img/joint/tool.svg" alt="#" class="transactions-tool">
+                        </div>
+                    </div>
+                    <div class="transactions-block__line-3">
+                        <p>10.05.2019</p>
+                        <p>Платеж принят</p>
+                        <div class="icon-transactions">
+                            <p>2400 грн.</p>
+                            <img src="@img/joint/view.svg" alt="">
+                            <img src="@img/joint/tool.svg" alt="#" class="transactions-tool">
+                        </div>
+                    </div>
+                    <p class="transactions-block__text">У вас не было транзакций!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+@@include('html/footer.html',{})
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Подключаем jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<!-- Подключаем файл JS скриптов -->
+<script src="js/app.min.js"></script>
+</body>
+</html>
