@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Заказ принят</title>
-        <link rel="stylesheet" href="styles/main.min.css">
-    </head>
-    <!-- header -->
-    @@include("smallComponents/header.html",{
-		"class" : ""
-    })
-    <body class="404 orderAccPage">
-        <main>
-            <section class="order">
-                <div class="top">
-                    <div class="top__body-text order__text-wrapper ">
-                        <p class="top__title">Благодарим Вас за заказ!</p>
-                        <p class="top__descr">
-                            Наши менеджеры свяжутся с Вами 
-							в ближайшее время
-                        </p>
-                    </div>
-                </div>
-            </section>
-            @@include("smallComponents/contacts.html",{
-                "class" : "item-info-contacts main-404-contacts"
-            })
-            <!-- margin: 79px 0 0; -->
-        </main>
-        @@include("smallComponents/footer.html",{
-            "class" : "main-404__footer"
+    @@include('html/head.html',{
+        "title":"Орехи"
         })
-        <script src="scripts/main.js"></script>
+    <body class="404 orderAccPage">
+        <div class="wrapper">
+            @@include('html/header.html',{})
+            <main class="main">
+                <section class="order">
+                    <div class="top__container">
+                        <div class="top__body-text order__text-wrapper ">
+                            <p class="top__title">Благодарим Вас за заказ!</p>
+                            <p class="top__descr">
+                                Наши менеджеры свяжутся с Вами <br>
+                                в ближайшее время
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            @@include('html/footerwhite.html',{})
+        </div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/app.min.js"></script>
     </body>
 </html>

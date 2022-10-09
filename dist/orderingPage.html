@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+	 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-<div class="wrapper">
-<header class="header">
+  <body class="basketPage orderBasketPage orderingPage">
+    <div class="wrapper">
+        <header class="header">
     <div class="header-contents__top">
         <div class="header__container">
             <div class="header-content__top">
@@ -254,23 +254,229 @@
 
     </div>
 </header>
-    <main class="main">
-        <div class="entry__container">
-            <div class="card-position">
-                <p class="text-card-left">Главная</p>
-                <p>Вход</p>
+        <main class="main">
+        <section class="basket">
+            <div class="basket__container">
+                <div class="account-top-nav">
+                    <p class="account-top__navtext">Главная</p>
+                    <p class="private-top__navtext">Корзина</p>
+                    <p>Оформление заказа</p>
+                </div>
+            <div class="basket__top-wrapper">
+                <p class="basket__title">Оформление заказа</p>
+                <div class="basket__block-wrapper">
+                <p class="basket__block-title">Ваш личный менеджер Олег</p>
+                <div class="basket__block-num">
+                    <img src="img/forms/telephone.png" alt="tel" />
+                    <p>+38 067 777 14 12</p>
+                </div>
+                </div>
             </div>
-            <div class="entry-main">
-                <h2 class="entry-main__title">Войти в личный кабинет</h2>
-                <input type="email" placeholder="Email" checked class="entry-main__email">
-                <input type="password" placeholder="Пароль" checked class="entry-main__pass">
-                <a class="entry-main__1" href="waterrecovery.html"> Забыли пароль?</a>
-                <a class="entry-main__btn" href="address.html">Войти</a>
-                <a class="entry-main__2" href="registration.html">Регистрация</a>
+            <div class="basket__table-wrapper">
+                <div class="basket__row basket__row-title">
+                    <div class="basket__title-block">
+                        <p class="basket__table-title">
+                            Товар
+                        </p>
+                        <img src="img/forms/arrow-green.png" alt="" class="basket__line">
+                    </div>
+                    <div class="basket__title-block">
+                        <p class="basket__table-title">
+                            Кол - во
+                        </p>
+                        <img src="img/forms/arrow-grey.png" alt="" class="basket__line">
+                    </div>
+                    <div class="basket__title-block ">
+                        <p class="basket__table-title">
+                            Цена за товар
+                        </p>
+                        <img src="img/forms/arrow-grey.png" alt="" class="basket__line">
+                    </div>
+                    <div class="basket__title-block">
+                        <p class="basket__table-title basket__table-title_pc">
+                            Итоговая стоимость
+                        </p>
+                        <p class="basket__table-title basket__table-title-mobile">
+                            Итого
+                        </p>
+                        <img src="img/forms/arrow-grey.png" alt="" class="basket__line">
+                    </div>
+                </div>
+                <div class="basket__row basket__row-item">
+                    <p class="pop-up__text basket-text">
+                        Орех соленый 80г.
+                        <div class="pop-up-counter__wrapper">
+                            <img src="img/forms/arrow-left.png" alt="arrow">
+                            <div class="pop-up__num pop-up__text">
+                                4
+                            </div>
+                            <img src="img/forms/arrow-right.png" alt="arrow">
+                        </div>
+                        <div class="pop-up__item-summ pop-up__text">
+                            25 грн.
+                        </div>
+                        <div class="pop-up__summ pop-up__text">
+                            100 грн.
+                        </div>
+                    </p>
+                </div>
+                <div class="basket__row basket__row-item">
+                    <p class="pop-up__text basket-text">
+                        Орех соленый 80г.
+                        <div class="pop-up-counter__wrapper">
+                            <img src="img/forms/arrow-left.png" alt="arrow">
+                            <div class="pop-up__num pop-up__text">
+                                1
+                            </div>
+                            <img src="img/forms/arrow-right.png" alt="arrow">
+                        </div>
+                        <div class="pop-up__item-summ pop-up__text">
+                            25 грн.
+                        </div>
+                        <div class="pop-up__summ pop-up__text basket__last-t">
+                            25 грн.
+                        </div>
+                    </p>
+                </div>
+                <div class="basket__row basket__row-item">
+                    <p class="pop-up__text basket-text">
+                        Орех соленый 80г.
+                        <div class="pop-up-counter__wrapper">
+                            <img src="img/forms/arrow-left.png" alt="arrow">
+                            <div class="pop-up__num pop-up__text">
+                                1
+                            </div>
+                            <img src="img/forms/arrow-right.png" alt="arrow">
+                        </div>
+                        <div class="pop-up__item-summ pop-up__text">
+                            25 грн.
+                        </div>
+                        <div class="pop-up__summ pop-up__text  basket__last-t">
+                            25 грн.
+                        </div>
+                    </p>
+                </div>
+                <div class="basket__row basket__row-item">
+                    <p class="pop-up__text basket-text">
+                        Орех соленый 80г.
+                        <div class="pop-up-counter__wrapper">
+                            <img src="img/forms/arrow-left.png" alt="arrow">
+                            <div class="pop-up__num pop-up__text">
+                                1
+                            </div>
+                            <img src="img/forms/arrow-right.png" alt="arrow">
+                        </div>
+                        <div class="pop-up__item-summ pop-up__text">
+                            25 грн.
+                        </div>
+                        <div class="pop-up__summ pop-up__text  basket__last-t">
+                            25 грн.
+                        </div>
+                    </p>
+                </div>
             </div>
-        </div>
-    </main>
-<footer id="footer">
+            <div class="basket__bottom">
+                <button class="basket__bottom-btn basket-order__bottom-btn">
+                <img src="img/forms/right-arrow.png" />
+                <a href="">Продолжить покупки</a>
+                </button>
+                <div class="pop-up__bottom">
+                <p class="pop-up__total">Всего</p>
+                <p class="pop-up__total-summ">175</p>
+                <p class="pop-up__uan">грн.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="ordering-page">
+            <div class="ordering-page__content">
+            <div class="ordering-page__top-wrapper">
+                <p class="ordering-page__title">1. Контактные данные</p>
+                <input
+                type="text"
+                placeholder="ФИО*"
+                class="ordering-page__input"
+                />
+                <input
+                type="text"
+                placeholder="Email*"
+                class="ordering-page__input"
+                />
+                <input
+                type="text"
+                placeholder="Телефон*"
+                class="ordering-page__input"
+                />
+            </div>
+            <div class="ordering-page__delivery-wrapper">
+                <p class="ordering-page__title">2. Способ доставки</p>
+                <div class="inputs-wrapper">
+                <input id="radioPost" type="radio" name="contacts" class="radio-input" />
+                <label for="" class="ordering-page__radio-text"
+                    >Новая почта (по Украине оплата за счет Клиента)
+                    </label>
+
+                </div>
+                <div class="inputs-to-show">
+                <select name="country" id="adress" class="ordering-page__input ordering-page__input-adreess">
+                    <option value="0">Страна</option>
+                    <option value="1">Украина</option>
+                </select>
+                <select name="country" id="adress" class="ordering-page__input ordering-page__input-adreess">
+                    <option value="0">Область</option>
+                    <option value="1">Одесская</option>
+                    <option value="1">Николаевская</option>
+                    <option value="1">Киевская</option>
+                </select>
+                </div>
+                <div class="inputs-wrapper inputs-wrapper__spec">
+                <input type="radio" name="contacts" class="radio-input rest-input" checked />
+                <label for="" class="ordering-page__radio-text">
+                    <p>Курьер по Одессе</p>
+                    <img src="img/forms/free-flag.png" alt="free" />
+                </label>
+                </div>
+                <input
+                type="text"
+                placeholder="Адрес*"
+                class="ordering-page__input ordering-page__input-adreess inputToHide" id=""
+                />
+
+                <div class="inputs-wrapper">
+                <input type="radio" name="contacts" class="radio-input rest-input" />
+                <label for="" class="ordering-page__radio-text">
+                    <p class="specIdP">Самовывоз со склада</p>
+                </label>
+                </div>
+            </div>
+            <div class="ordering-page__payment-wrapper">
+                <p class="ordering-page__title">3. Способ оплаты
+                <div class="inputs-wrapper-payment">
+                    <input type="radio" name="payment" class="radio-input" />
+                    <label for="" class="ordering-page__radio-text">
+                    <p class="">Безналичный расчет</p>
+                    </label>
+                </div>
+                <div class="inputs-wrapper-payment">
+                    <input type="radio" name="payment" class="radio-input" />
+                    <label for="" class="ordering-page__radio-text">
+                    <p class="">LiqPay / Приват24</p>
+                    </label>
+                </div>
+                <div class="inputs-wrapper-payment">
+                    <input type="radio" name="payment" class="radio-input" />
+                    <label for="" class="ordering-page__radio-text">
+                    <p class="">Наличными при получении (Наложенным платежом)</p>
+                    </label>
+                </div>
+            </div>
+            <button class="orderingPage-btn">
+                <a href="orderAcepted.html">Продолжить</a>
+            </button>
+            </div>
+        </section>
+        </main>
+        <footer id="footer">
     <div class="footer__contacts">
         <div class="footer__container">
             <div class="footer__contacts-contents">
@@ -350,11 +556,12 @@
         </div>
     </div>
 </footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<!-- Подключаем jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<!-- Подключаем файл JS скриптов -->
-<script src="js/app.min.js"></script>
-</body>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <!-- Подключаем файл JS скриптов -->
+    <script src="js/app.min.js"></script>
+    </body>
 </html>
